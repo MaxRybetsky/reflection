@@ -1,5 +1,9 @@
 package ru.skillbox.reflection;
 
+/**
+ *  Этот класс принадлежит стороннему разработчику (вендору).
+ *  Вы не можете менять его.
+ */
 public class OfficePrinter implements Printer {
     @Override
     public void on() {
